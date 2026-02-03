@@ -1,0 +1,10 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pg_admin_db
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
